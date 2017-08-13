@@ -28,6 +28,7 @@ public class Evaluate {
                 vals.push(v);
             } else vals.push(Double.parseDouble(s));
         }
+
         StdOut.print(vals.pop());
     }
 }
