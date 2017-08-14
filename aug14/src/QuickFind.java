@@ -1,12 +1,12 @@
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class UnionFind {
+public class QuickFind {
 
     private int[] id;
     private int count;
 
-    public UnionFind(int N) {
+    public QuickFind(int N) {
         count = N;
         id = new int[N];
         for (int i = 0; i < N; i++)
@@ -38,7 +38,7 @@ public class UnionFind {
 
     public static void main(String[] args) {
         int N = StdIn.readInt();
-        UnionFind uf = new UnionFind(N);
+        QuickFind uf = new QuickFind(N);
 
         while (!StdIn.isEmpty()) {
             int p = StdIn.readInt();
