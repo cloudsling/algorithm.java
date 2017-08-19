@@ -2,11 +2,6 @@ import java.util.*;
 import java.lang.*;
 
 public class Insertion {
-    public Insertion() {
-        super();
-
-    }
-
     public static void sort(Comparable[] a) {
         for (int i = 1; i < a.length; i++) {
             int t = i;
